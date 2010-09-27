@@ -1,43 +1,48 @@
-<h1>Listing wares</h1>
+<% if flash[:notice] %>
+	<div id="notice"><%= flash[:notice] %></div>
+<% end %>
+
+<% if flash[:error] %>
+	<div id="error"><%= flash[:error] %></div>
+<% end %>
 
 <table>
-  <tr>
-    <th>Kod</th>
-    <th>Nazwa</th>
-    <th>Podatek</th>
-    <th>Grupa</th>
-    <th>Platnosc</th>
-    <th>Jednostka</th>
-    <th>Ilosc</th>
-    <th>Cena netto</th>
-    <th>Cena</th>
-    <th>Op</th>
-    <th>Bl</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
+	<tr>
+		<th><%= image_tag 'icons/key.png' %></th>
+		<th></th>
+		<th></th>
+		<th>Podatek</th>
+		<th>Grupa</th>
+		<th>Platnosc</th>
+		<th>Jednostka</th>
+		<th>Cena netto</th>
+		<th>Cena</th>
+		<th>Ilosc</th>
+		<th>Op</th>
+		<th>Bl</th>
+		<th></th>
+	</tr>
 
 <% @wares.each do |ware| %>
-  <tr>
-    <td><%= ware.kod %></td>
-    <td><%= ware.nazwa %></td>
-    <td><%= ware.podatek %></td>
-    <td><%= ware.grupa %></td>
-    <td><%= ware.platnosc %></td>
-    <td><%= ware.jednostka %></td>
-    <td><%= ware.ilosc %></td>
-    <td><%= ware.cena_netto %></td>
-    <td><%= ware.cena %></td>
-    <td><%= ware.op %></td>
-    <td><%= ware.bl %></td>
-    <td><%= link_to 'Show', ware %></td>
-    <td><%= link_to 'Edit', edit_ware_path(ware) %></td>
-    <td><%= link_to 'Destroy', ware, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
+	<tr>
+		<td><%= ware.id %>.</td>
+		<td><%= ware.kod %></td>
+		<td><%= ware.nazwa %></td>
+		<td><%= ware.podatek %></td>
+		<td><%= ware.grupa %></td>
+		<td><%= ware.platnosc %></td>
+		<td><%= ware.jednostka %></td>
+		<td><%= ware.cena_netto %></td>
+		<td><%= ware.cena %></td>
+		<td><%= ware.ilosc %></td>
+		<td><%= ware.op %></td>
+		<td><%= ware.bl %></td>
+		<td><%= link_to image_tag('icons/keyboard.png'), edit_ware_path(ware) %> <%= link_to image_tag('icons/destroy.png'), ware, :confirm => 'Are you sure?', :method => :delete %></td>
+	</tr>
 <% end %>
 </table>
 
-<br />
-
-<%= link_to 'New Ware', new_ware_path %>
+<div class="actions">
+	<%= link_to 'Importuj wszystko', call_test_path %>
+	<%= link_to 'Nowy towar', new_ware_path %>
+</div>

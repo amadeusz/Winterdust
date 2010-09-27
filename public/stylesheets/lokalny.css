@@ -1,0 +1,10 @@
+/* Ograniczona szerokość wybranych stron */
+
+#wares #new, #wares #create, #wares #edit, #wares #update, #wares #show,
+#login #index, #call #test, #call #import
+{ width: 510px; margin-left: auto; margin-right: auto; }
+
+/* Login, Wykluj */
+
+#login .tresc img { padding: 11% 5%; }
+

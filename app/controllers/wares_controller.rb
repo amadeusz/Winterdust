@@ -44,7 +44,7 @@ class WaresController < ApplicationController
 
     respond_to do |format|
       if @ware.save
-        format.html { redirect_to(@ware, :notice => 'Ware was successfully created.') }
+        format.html { redirect_to(wares_path, :notice => 'Ware was successfully created.') }
         format.xml  { render :xml => @ware, :status => :created, :location => @ware }
       else
         format.html { render :action => "new" }
@@ -60,7 +60,7 @@ class WaresController < ApplicationController
 
     respond_to do |format|
       if @ware.update_attributes(params[:ware])
-        format.html { redirect_to(@ware, :notice => 'Ware was successfully updated.') }
+        format.html { redirect_to(wares_path, :notice => 'Ware was successfully updated.') }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }

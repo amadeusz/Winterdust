@@ -1,11 +1,11 @@
-#01	COM1:19200:MUX0:1	10	2010.09.27	01:30	RSTest	LIN 9.10.2010	/home/maciek/magazyn/call/command/RSTest.in	/home/maciek/magazyn/call/out
+#01	COM1:19200:MUX0:1	10	2010.09.27	04:12	TowarMax	LIN 9.10.2010	/home/maciek/quests/magazyn/call/command/TowarMax.in	/home/maciek/quests/magazyn/call/out
 #0	; program zakonczony bezblednie
-#Elzab (identyfikator domyslny)
-$200
-$1
-$1
-$4
-$4
+#Eco 6143 PLU II gen. ver. 01 (identyfikator odczytany z urzadzenia i pliku ECRTBUF.TXT)
+$184
+$0
+$179
+$3
+$182
 $00000	00000
-$4	1	$200
+$3	0	#
 $0000
