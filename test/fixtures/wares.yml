@@ -1,0 +1,27 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  kod: MyString
+  nazwa: MyString
+  podatek: 1
+  grupa: 1
+  platnosc: 1
+  jednostka: 
+  ilosc: 9.99
+  cena_netto: 9.99
+  cena: 9.99
+  op: 1
+  bl: 1
+
+two:
+  kod: MyString
+  nazwa: MyString
+  podatek: 1
+  grupa: 1
+  platnosc: 1
+  jednostka: 
+  ilosc: 9.99
+  cena_netto: 9.99
+  cena: 9.99
+  op: 1
+  bl: 1

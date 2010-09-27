@@ -1,0 +1,2 @@
+;	directly connection to COM example
+$01	COM1:19200:MUX0:1	10

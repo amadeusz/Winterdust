@@ -1,0 +1,11 @@
+#01	COM1:19200:MUX0:1	10	2010.09.27	01:30	RSTest	LIN 9.10.2010	/home/maciek/magazyn/call/command/RSTest.in	/home/maciek/magazyn/call/out
+#0	; program zakonczony bezblednie
+#Elzab (identyfikator domyslny)
+$200
+$1
+$1
+$4
+$4
+$00000	00000
+$4	1	$200
+$0000

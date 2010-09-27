@@ -1,4 +1,12 @@
 Czytnik::Application.routes.draw do
+
+  resources :wares
+
+  get "call/import"
+  get "call/test"
+  
+  root :to => 'wares#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

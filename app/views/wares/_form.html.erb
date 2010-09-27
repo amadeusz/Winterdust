@@ -1,0 +1,61 @@
+<%= form_for(@ware) do |f| %>
+  <% if @ware.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@ware.errors.count, "error") %> prohibited this ware from being saved:</h2>
+
+      <ul>
+      <% @ware.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :kod %><br />
+    <%= f.text_field :kod %>
+  </div>
+  <div class="field">
+    <%= f.label :nazwa %><br />
+    <%= f.text_field :nazwa %>
+  </div>
+  <div class="field">
+    <%= f.label :podatek %><br />
+    <%= f.text_field :podatek %>
+  </div>
+  <div class="field">
+    <%= f.label :grupa %><br />
+    <%= f.text_field :grupa %>
+  </div>
+  <div class="field">
+    <%= f.label :platnosc %><br />
+    <%= f.text_field :platnosc %>
+  </div>
+  <div class="field">
+    <%= f.label :jednostka %><br />
+    <%= f.text_field :jednostka %>
+  </div>
+  <div class="field">
+    <%= f.label :ilosc %><br />
+    <%= f.text_field :ilosc %>
+  </div>
+  <div class="field">
+    <%= f.label :cena_netto %><br />
+    <%= f.text_field :cena_netto %>
+  </div>
+  <div class="field">
+    <%= f.label :cena %><br />
+    <%= f.text_field :cena %>
+  </div>
+  <div class="field">
+    <%= f.label :op %><br />
+    <%= f.text_field :op %>
+  </div>
+  <div class="field">
+    <%= f.label :bl %><br />
+    <%= f.text_field :bl %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

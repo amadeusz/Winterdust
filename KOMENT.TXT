@@ -1,0 +1,285 @@
+  1	brak nazwy pliku wejsciowego
+  2	zastrzezona nazwa pliku wejsciowego
+  3	brak nazwy pliku wyjsciowego
+  4	zastrzezona nazwa pliku wyjsciowego
+  5	jednakowe nazwy plikow wejsciowego i wyjsciowego
+  6	nie mozna otworzyc pliku wejsciowego
+  7	nie mozna otworzyc pliku konfiguracji
+  8	nie mozna otworzyc pliku wyjsciowego
+  9	nie mozna otworzyc pliku raportu
+ 10	niekompletne dane w pliku wejsciowym
+ 11	niepoprawny format pliku wejsciowego
+ 12	niepoprawne dane w pliku wejsciowym
+ 13	niekompletne dane w pliku konfiguracji
+ 14	brak skojarzenia w pliku konfiguracji
+ 15	niepoprawne dane w pliku konfiguracji
+ 16	niepoprawny format pliku konfiguracji
+ 17	nie mozna pisac do pliku wyjsciowego
+ 18	nie mozna pisac do pliku raportu
+ 19	numer kasy poza zakresem
+ 20	timeout nadawania
+ 21	timeout odbierania
+ 22	pod podanym skojarzeniem kasa o innym numerze
+ 23	niepoprawna odpowiedz z kasy
+ 24	kasa odpowiedziala NAK na sekwencje sterujaca
+ 25	rozkaz niedostepny w tej wersji programu kasy
+ 26	nie wlaczona opcja "serwis z PC"
+ 27	nie mozna otworzyc pliku konfiguracji modemu
+ 28	niepoprawny format pliku konfiguracji modemu
+ 29	ciagle zestawione polaczenie miedzy modemami
+ 30	brak polaczenia miedzy modemami
+ 31	timeout obslugi sekwencji AT
+ 32	timeout nadawania do modemu/Elpack
+ 33	timeout odbierania z modemu/Elpack
+ 34	blad sumy CRC w ramce z modemu kasowego/Elpack
+ 35	blad sumy CRC w ramce do modemu kasowego/Elpack
+ 36	blad rozkazu dla modemu kasowego/Elpack
+ 37	blad ochrony pamieci konfiguracji modemu kasowego/Elpack
+ 38	blad w pamieci konfiguracji modemu kasowego/Elpack
+ 39	brak autoryzacji dla modemu kasowego/Elpack
+ 40	niezdefiniowany timeout nadawania w modemie kasowym/Elpack
+ 41	niezdefiniowany timeout odbierania w modemie kasowym/Elpack
+ 42	blad parzystosci miedzy kasa i modemem kasowym/Elpack
+ 43	modem kasowy/Elpack zglosil blad spoza dopuszczalnego zakresu
+ 44	nie mozna odblokowac transmisji w Windows
+ 45	kontroler modemu/Elpack nie obsluguje poprawnie drugiej odpowiedzi
+ 46	niezgodna suma XOR/CRC16
+ 47	awaria drukarki
+ 48	brak papieru
+ 49	nadpisanie bajtu odebranego przez komputer (overrun)
+ 50	blad parzystosci bajtu odebranego przez komputer (parity error)
+ 51	blad ramki bajtu odebranego przez komputer (framing error)
+ 52	nie mozna przelaczyc kanalu multipleksera
+ 53	dane nie mieszcza sie w pojedynczej ramce
+ 54	blad serwera kasowego - strona serwera
+ 55	blad serwera kasowego - strona klienta
+ 56	zakonczono dzialanie na zadanie serwera kasowego
+ 57	nie mozna wykonac funkcji specjalnej dla kasy Teta
+ 58	uszkodzony obszar pamieci fiskalnej przeznaczony na rekordy fiskalne
+ 59	nie mozna otworzyc pliku buforujacego typy kas
+ 60	niepoprawny format pliku buforujacego typy kas
+ 61	niemozliwy zapis do pliku buforujacego typy kas
+ 62	nie mozna otworzyc portu szeregowego
+ 63	timeout nadawania dla operacji TCP/IP
+ 64	timeout odbierania dla operacji TCP/IP
+ 65	inny blad dla operacji TCP/IP
+ 66	odpowiedz o zmiennej dlugosci niezgodna z deklaracja
+ 67	niepoprawna nazwa hosta lub niedostepny serwer DNS
+ 68	blad rozkazu interfejsu sieciowego
+ 69	operacja niemozliwa w trybie szkoleniowym (wymagany tryb fiskalny)
+ 70	niepoprawny zakres raportow
+ 71	brak raportow w podanym zakresie
+ 72	operacja niemozliwa dla niezakonczonego miesiaca
+ 73	operacja niemozliwa w trybie ZAPIS/ODCZYT (wymagany tryb TYLKO ODCZYT)
+ 74	operacja niemozliwa poniewaz inny wydruk jest w toku
+ 75	operacja niemozliwa poniewaz zwora serwisowa jest w pozycji serwisowej
+ 76	podano niewlasciwa date lub haslo
+ 77	inny blad dla raportow okresowych
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101	niemozliwe do wykonania poniewaz pamiec CMOS zostala skasowana (wezwij serwis)
+102	blad w nazwie towaru
+103	blad w stawce podatkowej towaru
+104	brak miejsca na opakowanie (max. 64 opakowan)
+105	bledny numer towaru
+106
+107	brak miejsca w buforze na towary wiazane (max. 256 wiazan)
+108	za duzy kod kreskowy
+109	za duza cena
+110	numer grupy towarowej poza dozwolonym zakresem
+111	numer jednostki poza dozwolonym zakresem
+112	bledna ilosc miejsc po przecinku
+113	blad w informacji o blokadzie towaru (nie 0 lub 1)
+114	blad w informacji o opakowaniu (nie 0 lub 1)
+115	numer platnosci poza dozwolonym zakresem
+116	numer pozycji karty rabatowej poza zakresem
+117	brak miejsca na karte rabatowa
+118	dane karty na pozycji sa inne niz podane
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200	pod podanym numerem towaru jest nowa nazwa lub stawka
+201	niemozliwe do wykonania poniewaz nie wszystkie dane zostaly przeczytane
+202	pod podanym numerem towaru brak danych
+203	numer kasjera poza dozwolonym zakresem
+204	pod podanym numerem kasjera brak danych
+205	kasjer do skasowania ma otwarta zmiane
+206	w ciagu ktory ma byc znakami tekstu jest kod mniejszy od 20H
+207	rabat albo narzut zbyt duzy
+208	parametr N poza dozwolonym zakresem
+209	towar do skasowania lub zastapienia ma niezerowa sprzedaz lub zwroty jezeli jest opakowaniem
+210	liczba wierszy do wysuniecia poza dozwolonym zakresem
+211	brak miejsca na barkod
+212	kasjer pracuje
+213	otwarty paragon
+214
+215	numer pojemnika poza dozwolonym zakresem
+216
+217	waga pojemnika poza dozwolonym zakresem
+218
+219
+220	w nazwie towaru wystepuja same spacje lub znaki niewazne
+221	numer PLU zajety przez inny towar
+222	wprowadzana nazwa istnieje juz w bazie
+223	niezerowy licznik paragonow
+224	towar oznaczony jako nowo zdefiniowany
+225	towar oznaczony jako skasowany
+226	towar ma juz raz zmieniona stawke
+227	zwora serwisowa w pozycji normalnej
+228	klawisz nie moze byc definiowany i odczytywany
+229	brak miejsca na kwoty dla platnosci z klawisza
+230	wartosc wprowadzanej kwoty ograniczenia jest wieksza niz maksymalna dopuszczalna
+231	doba jest otwarta
+232	towar do zmiany lub skasowania jest uzyty w biezacym paragonie
+233
+234	blad rozszerzony
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+
+; bledy rozszerzone 6CXX (wiadomosci kasjerskie)
+6C01	numer wiadomosci zerowy lub za wysoki
+6C02	brak wiadomosci o takim numerze
+6C03	wiadomosci zostaly zmienione lub usuniete od czasu rozpoczecia operacji
+6C04	bledna kolejnosc operacji dla wiadomosci kasjera
+6C05	brak miejsca na nowa wiadomosc
+6C06	numer kasjera w wiadomosci poza dozwolonym zakresem
+6C07	blad w dacie lub czasie waznosci wiadomosci
+6C08	blad w statusie wiadomosci
+6C09	w tekscie wiadomosci jest znak mniejszy od 20h
+6C0A	nie ma wiadomosci o takiej tresci do skasowania
+6C0B	wiadomosc nie zostala zapisana poniewaz system wiadomosci kasjerskich jest wylaczony
+6C0C	nie mozna skasowac wiadomosci poniewaz trwa odczyt przez kasjera
+
+; bledy rozszerzone D4XX (rabaty/narzuty automatyczne)
+D401	bledna wartosc indeksu X
+D402	bledna zawartosc TYP
+D403	bledna zawartosc ZAKRES
+D404	bledna zawartosc RN
+D405	bledna zawartosc PK
+D406	bledna zawartosc PW
+D407	bledna zawartosc PG
+D408	bledna zawartosc PR
+D409	bledna zawartosc CZAS
+D40A	bledna zawartosc NAZWA
+D40B	rabat/narzut na paragon dla kazdego towaru jest juz zdefiniowany
+D40C	rabat/narzut na paragon dla tej grupy juz zdefiniowano, lub dla tego PLU zdefiniowano juz promocje
+D40D	dla promocji jezeli progi sa ilosciowe to tylko dopuszczalne sa tylko rabaty procentowe
+D40E	bledne dane daty lub czasu obowiazywania
