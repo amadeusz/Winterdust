@@ -1,4 +1,4 @@
-#01	COM1:19200:MUX0:1	10	2010.09.27	04:12	TowarMax	LIN 9.10.2010	/home/maciek/quests/magazyn/call/command/TowarMax.in	/home/maciek/quests/magazyn/call/out
+#01	COM1:19200:MUX0:1	10	2010.09.27	06:07	TowarMax	LIN 9.10.2010	/home/maciek/quests/magazyn/call/TowarMax.in	/home/maciek/quests/magazyn/call/TowarMax.out
 #0	; program zakonczony bezblednie
 #Eco 6143 PLU II gen. ver. 01 (identyfikator odczytany z urzadzenia i pliku ECRTBUF.TXT)
 $184

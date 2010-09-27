@@ -10,7 +10,31 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100927001436) do
+ActiveRecord::Schema.define(:version => 20100927052850) do
+
+  create_table "groups", :force => true do |t|
+    t.string   "opis"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "payments", :force => true do |t|
+    t.string   "opis"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "units", :force => true do |t|
+    t.string   "opis"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "vats", :force => true do |t|
+    t.string   "opis"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "wares", :force => true do |t|
     t.string   "kod"
@@ -19,11 +43,11 @@ ActiveRecord::Schema.define(:version => 20100927001436) do
     t.integer  "grupa"
     t.integer  "platnosc"
     t.integer  "jednostka"
-    t.integer  "bl"
+    t.decimal  "ilosc"
+    t.decimal  "cena_netto"
+    t.decimal  "cena"
     t.integer  "op"
-    t.decimal  "cena_netto", :precision => 8, :scale => 2
-    t.decimal  "cena",       :precision => 8, :scale => 2
-    t.decimal  "ilosc",      :precision => 8, :scale => 2
+    t.integer  "bl"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

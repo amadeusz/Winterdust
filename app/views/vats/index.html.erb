@@ -1,0 +1,21 @@
+<table>
+	<tr>
+		<th>Opis</th>
+		<th></th>
+		<th></th>
+		<th></th>
+	</tr>
+
+<% @vats.each do |vat| %>
+	<tr>
+		<td><%= vat.opis %></td>
+		<td><%= link_to 'Show', vat %></td>
+		<td><%= link_to 'Edit', edit_vat_path(vat) %></td>
+		<td><%= link_to 'Destroy', vat, :confirm => 'Are you sure?', :method => :delete %></td>
+	</tr>
+<% end %>
+</table>
+
+<div class="actions">
+	<%= link_to 'Dodaj stawkę VAT', new_vat_path %>
+</div>

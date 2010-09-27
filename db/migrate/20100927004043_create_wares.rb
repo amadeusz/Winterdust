@@ -6,7 +6,7 @@ class CreateWares < ActiveRecord::Migration
       t.integer :podatek
       t.integer :grupa
       t.integer :platnosc
-      t.int :jednostka
+      t.integer :jednostka
       t.decimal :ilosc
       t.decimal :cena_netto
       t.decimal :cena

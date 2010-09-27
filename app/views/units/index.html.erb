@@ -1,0 +1,18 @@
+<table>
+	<tr>
+		<th>Opis</th>
+
+		<th></th>
+	</tr>
+
+<% @units.each do |unit| %>
+	<tr>
+		<td><%= unit.opis %></td>
+		<td><%= link_to 'Edit', edit_unit_path(unit) %><%= link_to 'Destroy', unit, :confirm => 'Are you sure?', :method => :delete %></td>
+	</tr>
+<% end %>
+</table>
+
+<div class="actions">
+	<%= link_to 'Dodaj jednostkę', new_unit_path %>
+</div>

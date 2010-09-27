@@ -1,0 +1,17 @@
+<table>
+	<tr>
+		<th>Opis</th>
+		<th></th>
+	</tr>
+
+<% @groups.each do |group| %>
+	<tr>
+		<td><%= group.opis %></td>
+		<td><%= link_to 'Edit', edit_group_path(group) %><%= link_to 'Destroy', group, :confirm => 'Are you sure?', :method => :delete %></td>
+	</tr>
+<% end %>
+</table>
+
+<div class="actions">
+	<%= link_to 'Nowa grupa', new_group_path %>
+</div>

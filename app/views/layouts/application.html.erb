@@ -16,7 +16,10 @@
 		<%
 			nawigacja = []
 	
-			nawigacja << ['Magazyn', wares_path]
+			nawigacja << ['Towary', wares_path]
+			nawigacja << ['VAT', vats_path]
+			nawigacja << ['Grupy', groups_path]
+			nawigacja << ['Jednostki', units_path]
 
 			nawigacja.each do |element|
 				klasa = nil

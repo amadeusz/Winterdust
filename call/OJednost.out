@@ -1,0 +1,19 @@
+#01	COM1:19200:MUX0:1	10	2010.09.27	06:07	OJednost	LIN 9.10.2010	/home/maciek/quests/magazyn/call/OJednost.in	/home/maciek/quests/magazyn/call/OJednost.out
+#
+#Eco 6143 PLU II gen. ver. 01 (identyfikator odczytany z urzadzenia i pliku ECRTBUF.TXT)
+$01	szt.
+$02	opak
+$03	but.
+$04	kg  
+$05	gram
+$06	tona
+$07	litr
+$08	dkg 
+$09	    
+$10	    
+$11	    
+$12	    
+$13	    
+$14	    
+$15	    
+$16	    
